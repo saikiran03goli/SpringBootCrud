@@ -10,6 +10,7 @@ private Integer sId;
 private String sName;
 private String address;
 private double fee;
+private int rollNo
 public Strundet() {
 	super();
 }
@@ -37,9 +38,15 @@ public double getFee() {
 public void setFee(double fee) {
 	this.fee = fee;
 }
+public int rollNo() {
+	return rollNo;
+}
+public void rollNo(int rollNo) {
+	this.rollNo = rollNo;
+}
 @Override
 public String toString() {
-	return "Strundet [sId=" + sId + ", sName=" + sName + ", address=" + address + ", fee=" + fee + "]";
+	return "Strundet [sId=" + sId + ", sName=" + sName + ", address=" + address + ", fee=" + fee + " , rollNo=" + rollNo + "]";
 }
 
 }
