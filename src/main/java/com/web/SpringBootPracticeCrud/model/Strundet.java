@@ -10,7 +10,7 @@ private Integer sId;
 private String sName;
 private String address;
 private double fee;
-private int rollNo
+private int rollNo;
 public Strundet() {
 	super();
 }
